@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,#796aa138,#685e8538), url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 15px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.header-content{
+max-width: 600px;
+height: 600px;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.header-content h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.header-content p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 300;
+}
+.header-content a{
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #626262;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+.header-content a:hover{
+    transform: translateY(-3px);
+}
